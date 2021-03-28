@@ -1,0 +1,15 @@
+{
+    "require": {
+        "ext-gd": "*",
+        "imagine/imagine": "^1.2",
+        "mark-php/mark": "^1.1",
+        "google/cloud-storage": "^1.23",
+        "symfony/dotenv": "^5.2"
+    },
+    "scripts": {
+        "start": "php start.php start"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
