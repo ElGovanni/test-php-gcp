@@ -16,4 +16,4 @@ RUN composer install --no-dev --no-scripts --no-autoloader \
 
 EXPOSE 8080
 
-CMD ["composer", "start"]
+CMD ["php", "start.php", "start"]
